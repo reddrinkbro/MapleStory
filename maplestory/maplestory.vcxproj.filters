@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="매니져">
+      <UniqueIdentifier>{124352bb-42a8-46a3-b14f-eabb100eafab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="메인게임">
+      <UniqueIdentifier>{fea28a3b-9ae5-45f6-87bb-5ef70ee6d021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이미지">
+      <UniqueIdentifier>{71f13ecd-92da-49d4-ac45-381cfc8b47f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{8f3c9545-740f-42e3-8d75-977d8f3b9f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="플레이어">
+      <UniqueIdentifier>{1eaf7031-4a96-46d1-92bd-6c8926a0e5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="플레이어\스킬">
+      <UniqueIdentifier>{d895a7e1-8439-4ab7-abd5-a2ede26a9bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="맵">
+      <UniqueIdentifier>{28582d3b-a906-4388-8b77-c4354ffef658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="몬스터">
+      <UniqueIdentifier>{5b86638a-7b53-4833-86ae-66d1974c0415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="유틸">
+      <UniqueIdentifier>{f7641364-7436-4159-a80c-bb8c30307b64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="image.h">
+      <Filter>이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>메인게임</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFiunction.h">
+      <Filter>유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="luckSeven.h">
+      <Filter>플레이어\스킬</Filter>
+    </ClInclude>
+    <ClInclude Include="mushMomField.h">
+      <Filter>맵</Filter>
+    </ClInclude>
+    <ClInclude Include="huntingGround.h">
+      <Filter>맵</Filter>
+    </ClInclude>
+    <ClInclude Include="startSpot.h">
+      <Filter>맵</Filter>
+    </ClInclude>
+    <ClInclude Include="temple.h">
+      <Filter>맵</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashJump.h">
+      <Filter>플레이어\스킬</Filter>
+    </ClInclude>
+    <ClInclude Include="shurikenBurst.h">
+      <Filter>플레이어\스킬</Filter>
+    </ClInclude>
+    <ClInclude Include="windTalisman.h">
+      <Filter>플레이어\스킬</Filter>
+    </ClInclude>
+    <ClInclude Include="shadeSplit.h">
+      <Filter>플레이어\스킬</Filter>
+    </ClInclude>
+    <ClInclude Include="monsterBase.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="OrangeMushroom.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="stump.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="AxeStump.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="blueMushroom.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="drake.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="copperDrake.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="mushMom.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="JuniorBalrog.h">
+      <Filter>몬스터</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="image.cpp">
+      <Filter>이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>메인게임</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="luckSeven.cpp">
+      <Filter>플레이어\스킬</Filter>
+    </ClCompile>
+    <ClCompile Include="mushMomField.cpp">
+      <Filter>맵</Filter>
+    </ClCompile>
+    <ClCompile Include="huntingGround.cpp">
+      <Filter>맵</Filter>
+    </ClCompile>
+    <ClCompile Include="startSpot.cpp">
+      <Filter>맵</Filter>
+    </ClCompile>
+    <ClCompile Include="temple.cpp">
+      <Filter>맵</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashJump.cpp">
+      <Filter>플레이어\스킬</Filter>
+    </ClCompile>
+    <ClCompile Include="shurikenBurst.cpp">
+      <Filter>플레이어\스킬</Filter>
+    </ClCompile>
+    <ClCompile Include="windTalisman.cpp">
+      <Filter>플레이어\스킬</Filter>
+    </ClCompile>
+    <ClCompile Include="shadeSplit.cpp">
+      <Filter>플레이어\스킬</Filter>
+    </ClCompile>
+    <ClCompile Include="monsterBase.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="OrangeMushroom.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="stump.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="AxeStump.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="blueMushroom.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="drake.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="copperDrake.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="mushMom.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="JuniorBalrog.cpp">
+      <Filter>몬스터</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
